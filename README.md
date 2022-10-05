@@ -12,5 +12,5 @@
 4. Add test when user click on "Submit", but no email is entered
 
 // Possible blockers
-1. The pop-up message for invalid email address used or that checkbox for privacy policy is unchecked is might be hard to verified with Cypress automation framework app
+1. The pop-up message for invalid email address used OR that checkbox for privacy policy is unchecked might be hard to verified with Cypress automation framework app
 2. The email to Subscribe must be unique ( once used it can not be used again for test)
