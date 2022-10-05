@@ -1,6 +1,8 @@
-The JavaScript file "MYRA.cy.js" uploaded covers E2E automation test of MYRA Status Subscribe function via email address.
+// Test Automation
+
+The JavaScript file "MYRA.cy.js" uploaded here covers E2E automation test of MYRA Status Subscribe function via email address.
 The script can be easily downloaded and run with Cypress app.
-The email that is used for E2E test is fake and randomly generated any time new test is start.
+The email that is used for E2E automation test is fake and randomly generated any time new test is start.
 
 // Additional steps to take in order to assure full testing coverage:
 
@@ -10,5 +12,5 @@ The email that is used for E2E test is fake and randomly generated any time new 
 4. Add test when user click on "Submit", but no email is entered
 
 // Possible blockers
-1. The pop-up message for invalid email address used OR that checkbox for privacy policy is unchecked might be hard to verified with Cypress automation framework app
+1. The pop-up message that invalid email address is entered OR that checkbox for privacy policy is unchecked might be hard to verified with Cypress automation framework app
 2. The email to Subscribe must be unique ( once used it can not be used again for test)
