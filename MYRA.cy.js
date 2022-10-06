@@ -5,7 +5,7 @@ cy.visit('https://status.myrasecurity.com')
 cy.contains('Email')
 .should('be.visible')
 .click()
-// Verify that pop-up window to enter email addreess to Subscribe is displayed
+// Verify that pop-up window to enter email addreess to Subscribe is get displayed
 cy.contains('Please enter your email address:')
 cy.contains('I have read and agree to the privacy policy as well as the general terms and conditions')		
 //Start of JavaScript function that creates random fake email address
@@ -24,7 +24,7 @@ cy.get("[type='checkbox']")
 cy.get("[type='Submit']")
 // Submit the email for Subscribe
 .click()
-// Verify that email is entered successfully
+// Verify that email is entered and sent successfully
 cy.contains('Mail entered.')
 cy.contains('You should receive a confirmation mail soon.')
 cy.get('button:contains("OK")')
