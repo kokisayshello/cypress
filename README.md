@@ -1,3 +1,7 @@
+// Manual Testing Task
+
+The manual test cases are into "Manual test task.pdf" file attached
+
 // Test Automation
 
 The JavaScript file "MYRA.cy.js" uploaded here covers E2E automation test of MYRA Status Subscribe function via email address.
